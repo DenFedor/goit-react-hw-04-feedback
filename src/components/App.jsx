@@ -1,7 +1,5 @@
-import React from "react";
-import FeedbackCounter from "./FeedbackCounter/FeedbackCounter";
+import React from 'react';
+import FeedbackCounter from './FeedbackCounter/FeedbackCounter';
 export const App = () => {
-  return (
-   <FeedbackCounter />
-  );
+  return <FeedbackCounter />;
 };
